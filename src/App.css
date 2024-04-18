@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; 
+  background-color: #fdf7f7; 
+  font-size: 22px;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 15px;
+}
+
+.card {
+  border: 2px solid #ccc; 
+  border-radius: 20px; 
+  background-color: #f9f9f9; 
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.border {
+  border: 2px solid #ccc; 
+  border-radius: 20px; 
+  padding: 30px; 
+}
+
+.button {
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ff96ad;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  font-size: 16px;
+}
+
+.input-container button {
+  padding: 15px 30px;
+  background-color: #ff96ad;
+  color: #fff; 
+  border: none;
+  border-radius: 8px; 
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.todo-item:last-child {
+  border-bottom: none; 
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+.todo-item button {
+  background-color: #ff6b81; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px; 
+  cursor: pointer;
+}
